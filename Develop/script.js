@@ -66,7 +66,7 @@ function generatePassword() {
 
   if (charNum < 8 || charNum > 128) {
     alert ("Password must be between 8 and 128 characters long");
-    
+    prompt ("How many characters?");
   }
 
 
