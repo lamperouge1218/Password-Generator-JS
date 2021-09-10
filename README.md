@@ -8,7 +8,7 @@ This app was designed to provide random passwords based on specific input criter
 
 This app is designed to be intuitive and easy to use, only requiring clicking OK or Cancel on prompt dialog boxes. At least one criterion must be chosen and there is a failsafe in the code for this. Other than that, the process simply runs itself based on User input and supplies a password of appropriate length using only the criteria specified by the User. 
 
-The app is live at this URL: https://lamperouge1218.github.io/Password-Generator-JS/Develop/index.html 
+The app is live at this URL: https://lamperouge1218.github.io/Password-Generator-JS/Develop/index
 
 and here is a screenshot of the final product: <img src = "./assets/passgenscreenshot.png"/>
 
