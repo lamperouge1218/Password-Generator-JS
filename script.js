@@ -26,7 +26,7 @@ var passwordArray = []
 
 function generatePassword() {
   //Initial prompt to begin function
-  alert("Please select from the following criteria regarding your password");
+  alert("Please select from the following criteria regarding your password between 8 and 128 characters.");
 
   //Assigning of value to how long the password should be
   var charNum = prompt("How many characters?");
