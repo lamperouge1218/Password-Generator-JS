@@ -103,8 +103,10 @@ function generatePassword() {
     passwordArray.push (finalArray[Math.floor(Math.random() * finalArray.length)]);
   }
 
-  //displays final password string taken from the passwordArray
-  alert (passwordArray.join(""));  
 
-  console.log(passwordArray);
+  //displays final password string taken from the passwordArray
+  password = (passwordArray.join(""));  
+
+  return password;
+
 }
