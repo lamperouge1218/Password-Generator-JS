@@ -68,6 +68,13 @@ function generatePassword() {
     alert ("Password must be between 8 and 128 characters long");
     prompt ("How many characters?");
   }
+  else  {
+    console.log(charNum);
+
+  }
+
+
+
 
 
 
