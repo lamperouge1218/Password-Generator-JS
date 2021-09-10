@@ -21,7 +21,7 @@ var numOption = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 var specialCharacters = ["!", "#", "$", "%", "&", "(", ")", "*", "+", ",", "-", ".", "/", ":", ";", "<", "=", ">", "?", "@", "[", "]", "^", "_", "{", "}", "~"];
 
 var finalArray = [];
-var passwordArray = []
+var passwordArray = [];
 
 
 function generatePassword() {
@@ -102,7 +102,6 @@ function generatePassword() {
   for (let i = 0; i < charNum; i++) {
     passwordArray.push (finalArray[Math.floor(Math.random() * finalArray.length)]);
   }
-
 
   //displays final password string taken from the passwordArray
   password = (passwordArray.join(""));  
